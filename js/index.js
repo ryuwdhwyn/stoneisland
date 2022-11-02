@@ -191,5 +191,26 @@ $("document").ready(function () {
     // })
     // $(".section .section-list ul li").eq(0).addClass("on")
 
+    $(window).scroll(function(){
+
+
+        let pos = $(window).scrollTop();
+
+        if (pos >= 200) {
+            $(".aside").show()
+        }else{
+            $(".aside").hide()
+        }
+        
+        
+
+    })
+
+    $(".aside img").click(function(){
+        $("html, body").scrollTop(0)
+    })
+
+
+
 
 });

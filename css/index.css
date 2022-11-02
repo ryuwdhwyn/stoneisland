@@ -207,6 +207,8 @@ a{text-decoration: none; color: #000;}
 .footer .footer-end a{color: #fff; font-size: 18px;}
 .footer .footer-end p{color: #fff; font-size: 18px; margin-top: 20px;}
 
+.aside{position: fixed; width: 50px; height: 50px; background-color: #fff; right: 20px; bottom: 20px; cursor: pointer; border-radius: 50px; display: none;}
+
 @media screen and (max-width: 1600px){
     .title .title-content .title-txt p{margin-top: 10px; font-size: 20px;}
 
@@ -264,6 +266,8 @@ a{text-decoration: none; color: #000;}
     .footer .footer-sns .sns-img ul li a,
     .footer .footer-end a,
     .footer .footer-end p{font-size: 16px;}
+    .aside,
+    .aside img{width: 35px; height: 35px;}
 
 }
 
@@ -324,4 +328,6 @@ a{text-decoration: none; color: #000;}
     .header{height: 80px;}
     .header .logo img{width: 130px;}
     .slide-section img{margin-top: 80px;}
+    .aside,
+    .aside img{width: 0px; height: 0px;}
 }
